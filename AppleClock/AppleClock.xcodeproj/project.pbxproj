@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD309BBC2B4553A500B30C6F /* WorldClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD309BBB2B4553A500B30C6F /* WorldClockViewController.swift */; };
 		BDA3FB002B4409E600BF5BB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA3FAFF2B4409E600BF5BB5 /* AppDelegate.swift */; };
 		BDA3FB022B4409E600BF5BB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA3FB012B4409E600BF5BB5 /* SceneDelegate.swift */; };
 		BDA3FB072B4409E600BF5BB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA3FB052B4409E600BF5BB5 /* Main.storyboard */; };
@@ -16,9 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD309BBB2B4553A500B30C6F /* WorldClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockViewController.swift; sourceTree = "<group>"; };
 		BDA3FAFC2B4409E600BF5BB5 /* AppleClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA3FAFF2B4409E600BF5BB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BDA3FB012B4409E600BF5BB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BDA3FB012B4409E600BF5BB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BDA3FB062B4409E600BF5BB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDA3FB092B4409E600BF5BB5 /* AppleClock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppleClock.xcdatamodel; sourceTree = "<group>"; };
 		BDA3FB0B2B4409E700BF5BB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				BDA3FAFF2B4409E600BF5BB5 /* AppDelegate.swift */,
 				BDA3FB012B4409E600BF5BB5 /* SceneDelegate.swift */,
+				BD309BBB2B4553A500B30C6F /* WorldClockViewController.swift */,
 				BDA3FB052B4409E600BF5BB5 /* Main.storyboard */,
 				BDA3FB0B2B4409E700BF5BB5 /* Assets.xcassets */,
 				BDA3FB0D2B4409E700BF5BB5 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD309BBC2B4553A500B30C6F /* WorldClockViewController.swift in Sources */,
 				BDA3FB0A2B4409E600BF5BB5 /* AppleClock.xcdatamodeld in Sources */,
 				BDA3FB002B4409E600BF5BB5 /* AppDelegate.swift in Sources */,
 				BDA3FB022B4409E600BF5BB5 /* SceneDelegate.swift in Sources */,
