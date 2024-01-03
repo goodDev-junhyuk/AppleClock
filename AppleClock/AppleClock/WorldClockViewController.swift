@@ -7,6 +7,7 @@
 
 import UIKit
 
+// MARK: -- 1. 탭바컨트롤러 클래스 추가.
 class WorldClockViewController: UIViewController {
 
     override func viewDidLoad() {
