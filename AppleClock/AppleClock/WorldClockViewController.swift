@@ -9,7 +9,16 @@ import UIKit
 
 // MARK: -- 1. 탭바컨트롤러 클래스 추가.
 class WorldClockViewController: UIViewController {
-
+    
+    // TableView 클래스 설정.
+    @IBOutlet weak var worldClockTableView: UITableView!
+    
+    var list = [
+        TimeZone(identifier: "Asia/Seoul")!,
+        TimeZone(identifier: "Europe/Paris")!,
+        TimeZone(identifier: "America/NewYork")!
+    ]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

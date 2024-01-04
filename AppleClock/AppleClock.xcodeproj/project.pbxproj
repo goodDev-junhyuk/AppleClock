@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD309BBC2B4553A500B30C6F /* WorldClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD309BBB2B4553A500B30C6F /* WorldClockViewController.swift */; };
+		BD96A3022B46A8AC00E1AC24 /* WorldClockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD96A3012B46A8AC00E1AC24 /* WorldClockTableViewCell.swift */; };
 		BDA3FB002B4409E600BF5BB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA3FAFF2B4409E600BF5BB5 /* AppDelegate.swift */; };
 		BDA3FB022B4409E600BF5BB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA3FB012B4409E600BF5BB5 /* SceneDelegate.swift */; };
 		BDA3FB072B4409E600BF5BB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA3FB052B4409E600BF5BB5 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		BD309BBB2B4553A500B30C6F /* WorldClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockViewController.swift; sourceTree = "<group>"; };
+		BD96A3012B46A8AC00E1AC24 /* WorldClockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockTableViewCell.swift; sourceTree = "<group>"; };
 		BDA3FAFC2B4409E600BF5BB5 /* AppleClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA3FAFF2B4409E600BF5BB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDA3FB012B4409E600BF5BB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD96A3002B46A88500E1AC24 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BD96A3012B46A8AC00E1AC24 /* WorldClockTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		BDA3FAF32B4409E600BF5BB5 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		BDA3FAFE2B4409E600BF5BB5 /* AppleClock */ = {
 			isa = PBXGroup;
 			children = (
+				BD96A3002B46A88500E1AC24 /* Cell */,
 				BDA3FAFF2B4409E600BF5BB5 /* AppDelegate.swift */,
 				BDA3FB012B4409E600BF5BB5 /* SceneDelegate.swift */,
 				BD309BBB2B4553A500B30C6F /* WorldClockViewController.swift */,
@@ -142,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD309BBC2B4553A500B30C6F /* WorldClockViewController.swift in Sources */,
+				BD96A3022B46A8AC00E1AC24 /* WorldClockTableViewCell.swift in Sources */,
 				BDA3FB0A2B4409E600BF5BB5 /* AppleClock.xcdatamodeld in Sources */,
 				BDA3FB002B4409E600BF5BB5 /* AppDelegate.swift in Sources */,
 				BDA3FB022B4409E600BF5BB5 /* SceneDelegate.swift in Sources */,
